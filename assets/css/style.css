@@ -10879,6 +10879,7 @@ ul.check-list li p {
   border-radius: 8px;
   position: relative;
   z-index: 1;
+  
 }
 
 .contact-style-two-items .shape-left-top {
@@ -11855,4 +11856,31 @@ text-align:center !important;
 
 .heading-liderazgo{
   font-weight: 300;
+}
+
+.socials{
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  color: #0F4C81;
+}
+
+.contacto-socials{
+  font-size: 40px;
+  display: inline-block;
+}
+
+.contacto-socials i{
+  margin: 30px 20px;
+  color: #000;
+}
+
+.contacto-socials i:hover{
+  margin: 30px 20px;
+  color: #0F4C81;
+}
+
+.sub-heading-shadow{
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.45);
+  font-weight: 600;
 }
