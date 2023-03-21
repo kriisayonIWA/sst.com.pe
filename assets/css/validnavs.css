@@ -467,7 +467,7 @@ nav.navbar.validnavs.logo-less .navbar-brand {
 }
 
 nav.navbar.validnavs {
-	background-color: var(--white);
+	background-color: #1e2222;
 	border-radius: 0;
 	border: none;
 	box-shadow: var(--box-shadow);
@@ -590,9 +590,8 @@ nav.validnavs.navbar-full .navbar-collapse ul.nav {
 }
 
 .validnavs a {
-	color: #232323;
+	color: #ffffff;
 	font-weight: 600;
-	text-transform: capitalize;
 	background: transparent;
 }
 
@@ -600,6 +599,7 @@ nav.validnavs.navbar-full .navbar-collapse ul.nav {
 .validnavs a:hover,
 .validnavs a.active {
 	background: transparent !important;
+	text-decoration: underline;
 }
 
 .attr-nav li {
@@ -1324,7 +1324,6 @@ nav.navbar.validnavs.brand-center {
 		margin-bottom: 0;
 		padding: 10px 15px !important;
 		text-align: left;
-		text-transform: capitalize;
 		width: 100%;
 		font-weight: 500 !important;
 	}
@@ -1390,7 +1389,6 @@ nav.navbar.validnavs.brand-center {
 		margin-bottom: 0;
 		padding: 8px 0;
 		text-align: left;
-		text-transform: capitalize;
 		width: 100%;
 	}
 	nav.navbar.validnavs ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover {
@@ -1622,7 +1620,6 @@ nav.navbar.validnavs.brand-center {
 	}
 	nav.validnavs.navbar-sidebar ul.nav>li>a {
 		padding: 8px 15px !important;
-		text-transform: capitalize;
 		font-weight: 700;
 		font-size: 14px;
 	}
@@ -1695,7 +1692,7 @@ nav.navbar.validnavs.brand-center {
 		margin-bottom: 0;
 		cursor: pointer;
 		color: var(--dark);
-		text-transform: capitalize;
+
 	}
 	nav.validnavs.navbar-sidebar .dropdown .megamenu-content .col-menu .title:before {
 		font-family: var(--fontawesome);
@@ -1907,6 +1904,7 @@ nav.navbar.validnavs.brand-center {
 		padding: 13px 0 !important;
 		border-top: solid 1px #e0e0e0;
 		margin-bottom: -1px;
+		font-weight: 300;
 	}
 	nav.navbar.validnavs .navbar-nav>li:first-child>a {
 		border-top: none;
@@ -1944,7 +1942,7 @@ nav.navbar.validnavs.brand-center {
 		font-size: 15px;
 		font-weight: 700;
 		padding: 10px 0;
-		text-transform: capitalize;
+		
 		width: 100%;
 	}
 	nav.navbar.validnavs ul.nav ul.dropdown-menu li a:hover,
@@ -2241,9 +2239,9 @@ nav.navbar.validnavs.brand-center {
 @media (min-width: 1200px) {
 	nav.navbar ul.nav>li>a {
 		padding: 30px 15px;
-		font-weight: 600;
-		font-size: 20px;
-		text-transform: uppercase;
+		font-weight: 300;
+		font-size: 24px;
+		
 	}
 	nav.navbar.attr-border-full ul.nav>li>a,
 	nav.navbar.brand-center ul.nav>li>a {
@@ -2417,7 +2415,7 @@ nav.navbar.validnavs.mobile-sidenav .navbar-collapse.collapse.collapse-mobile {
 	animation: fadeLeft;
 	height: 100%;
 	min-height: 100vh;
-	background: var(--white) none repeat scroll 0 0;
+	background: #1e2222 none repeat scroll 0 0;
 	overflow-y: scroll;
 	-webkit-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	-moz-transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -2446,7 +2444,7 @@ nav.navbar.validnavs.mobile-sidenav .navbar-collapse.collapse.collapse-mobile.sh
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background: var(--dark);
+	background: transparent;
 	opacity: 0.6;
 	top: 0;
 	left: 0;

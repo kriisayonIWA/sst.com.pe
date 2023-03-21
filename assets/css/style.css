@@ -80,7 +80,6 @@ a:focus {
 a:hover {
   outline: none;
   text-decoration: none;
-  color: #232323;
   opacity: 1;
 }
 
@@ -378,10 +377,10 @@ a {
   
   .banner--main .banner-title{
     
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: #fff;
-    font-weight: 700;
+    font-weight: 400;
   }
 }
 
@@ -775,12 +774,14 @@ a {
   text-transform: uppercase;
   color: #B03F1F;
   font-weight: 400;
-  letter-spacing: 15%;
+  letter-spacing: 3px;
   background-size: 220% 150%;
   display: inline-block;
   position: relative;
   z-index: 1;
   margin-left: 0px;
+  font-family: 'Inter', sans-serif;
+
 }
 
 
@@ -815,7 +816,8 @@ a {
 }
 
 .heading {
-  font-family: 'IBM Plex Sans KR', sans-serif;
+  /* font-family: 'IBM Plex Sans KR', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin-top: -5px;
   letter-spacing: 2%;
@@ -2544,19 +2546,13 @@ a {
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1350px) {
+@media only screen and (min-width: 1024px) and (max-width: 1350px) {
   .navbar.validnavs.navbar-default .navbar-nav li a {
     padding: 30px 10px !important;
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
-  .navbar.validnavs.navbar-default .navbar-nav li a {
-    padding: 30px 8px !important;
-    font-size: 14px;
-  }
-}
 
 @media (min-width: 768px) {
   .navbar.no-background.top-pad-50 {
@@ -2573,11 +2569,11 @@ a {
   position: relative;
 }
 
-@media (max-width: 1023px) {
+/* @media (max-width: 1023px) {
   .banner-area {
     height: auto;
   }
-}
+} */
 
 .banner-area div {
   height: 100%;
@@ -2591,12 +2587,12 @@ a {
   padding-top: 80px;
 }
 
-@media (max-width: 1023px) {
+/* @media (max-width: 1023px) {
   .banner-area.top-pad-80 .content {
     padding-top: 200px;
   }
 }
-
+ */
 @media only screen and (max-width: 767px) {
   .banner-area.top-pad-80 .content {
     padding-top: 140px;
@@ -9326,7 +9322,7 @@ ul.check-list li p {
 }
 
 .faq-style-one .thumb img {
-  border-radius: 7px;
+  border-radius: 0px;
 }
 
 .faq-style-one .thumb .shape {
@@ -11704,7 +11700,12 @@ text-align:center !important;
 
 .btn-simple:hover
 .move-right{
-  transform: translateX(15px)
+  transform: translateX(15px);
+  
+}
+
+.body-descripcion .btn-simple:hover{
+  color:#000 !important;
 }
 
 .move-right-producto{
@@ -11737,6 +11738,7 @@ text-align:center !important;
   margin-left: 0px;
   font-size: 30px;
   margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .subtitular-servicios-normal{
@@ -11751,12 +11753,13 @@ text-align:center !important;
   margin-left: 0px;
   font-size: 30px;
   margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .heading-black{
   color: #000000;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   margin-top: -5px;
   letter-spacing: 2%;
 }
@@ -11783,19 +11786,19 @@ text-align:center !important;
 } 
 
 .banner-title{
-  
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 60px;
   color: #fff;
-  font-weight: 700;
   text-shadow: 0px 2px 3px #000000;
 }
 
 .body-descripcion{
-  font-size: 24px;
+  font-size: 19px;
   margin-top: 15px;
   font-weight: 300;
   color: #000;
+  line-height: 35px;
   
 }
 
@@ -11816,7 +11819,7 @@ text-align:center !important;
 .banner-creado {
   position: relative;
   width: 100%;
-  height: 100%; /* ajusta la altura según tus necesidades */
+  height: 80%; /* ajusta la altura según tus necesidades */
   overflow: hidden;
 }
 
@@ -11860,9 +11863,10 @@ text-align:center !important;
 
 .socials{
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 40px;
   color: #0F4C81;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contacto-socials{
@@ -11882,5 +11886,12 @@ text-align:center !important;
 
 .sub-heading-shadow{
   text-shadow: 0px 1px 1px rgba(0,0,0,0.45);
-  font-weight: 600;
+  font-weight: 600 !important;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 4px;
+}
+
+.idiom-change{
+  font-weight: 300;
 }
