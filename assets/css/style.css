@@ -439,6 +439,7 @@ a {
   background: linear-gradient(90deg, #00102d 0%, #0059fc 56%) !important;
 }
 
+
 .text-light {
   color: #ffffff;
 }
@@ -11850,4 +11851,8 @@ text-align:center !important;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
+}
+
+.heading-liderazgo{
+  font-weight: 300;
 }
