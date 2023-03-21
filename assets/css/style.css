@@ -9680,7 +9680,7 @@ ul.check-list li p {
 }
 
 .blog-style-one .meta li a:hover {
-  color: #104cba;
+  color: #0F4C81;
 }
 
 .blog-style-one .meta li i {
@@ -11031,7 +11031,7 @@ ul.check-list li p {
 
 .contact-form-area .form button {
   border: none;
-  background: #104cba;
+  background: #0F4C81;
   display: inline-block;
   padding: 17px 45px;
   font-size: 17px;
@@ -11509,7 +11509,7 @@ footer .newsletter button::after {
   content: "";
   height: 100%;
   width: 100%;
-  background: #104cba;
+  background: #0F4C81;
   z-index: -1;
   border-radius: 5px;
   -webkit-transition: all 0.35s ease-in-out;
