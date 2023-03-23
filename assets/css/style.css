@@ -11950,3 +11950,8 @@ text-align:center !important;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 300;
 }
+
+.button-boletin{
+  border: none;
+    border-radius: 5px;
+}
