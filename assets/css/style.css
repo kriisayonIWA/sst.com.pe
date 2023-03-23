@@ -5403,7 +5403,15 @@ a {
 }
 
 .services-details-area h1, .services-details-area h2, .services-details-area h3, .services-details-area h4, .services-details-area h5, .services-details-area h6 {
-  font-weight: 600;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+
+.services-details-area h3{
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-family: 'Monserrat',sans-serif;
 }
 
 .services-details-area .features {
@@ -5467,7 +5475,7 @@ a {
   line-height: 60px;
   font-weight: 100;
   background: #ffffff;
-  color: #104cba;
+  color: #0F4C81;
   font-size: 22px;
   border-radius: 50%;
   margin-bottom: 40px;
@@ -5494,9 +5502,9 @@ a {
   content: "";
   height: 100%;
   width: 100%;
-  background: #091d3e;
+  background: #0F4C81;
   z-index: -1;
-  opacity: 0.6;
+  opacity: 1;
   border-radius: 7px;
 }
 
@@ -5527,7 +5535,7 @@ a {
   content: "";
   height: 2px;
   width: 50px;
-  border-bottom: 2px solid #104cba;
+  border-bottom: 2px solid #0F4C81;
 }
 
 .services-sidebar .single-widget h4.widget-title {
@@ -5560,7 +5568,7 @@ a {
 }
 
 .widget-brochure ul li a:hover {
-  color: #104cba;
+  color: #0F4C81;
 }
 
 .widget-brochure ul li:first-child a {
@@ -5613,8 +5621,7 @@ a {
   content: "";
   height: 100%;
   width: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#02218f), color-stop(#0e72e3), to(#02218f));
-  background: linear-gradient(to right, #02218f, #0e72e3, #02218f);
+  background:#0F4C81;
   background-size: 220% 150%;
   -webkit-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
@@ -9708,7 +9715,7 @@ ul.check-list li p {
 }
 
 .blog-style-one .title a {
-  font-weight: 600;
+  font-weight: 500;
   color: #232323;
 }
 
@@ -10468,7 +10475,7 @@ ul.check-list li p {
 }
 
 .blog-area .post-tags .tags a:hover {
-  color: #104cba;
+  color: #0F4C81;
 }
 
 .blog-area .share {
@@ -11815,8 +11822,9 @@ text-align:center !important;
 }
 
 .banner-text-creado  p {
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-bottom: 1em;
+  font-family: "Yantramanav", sans-serif;
 }
 
 
@@ -11936,4 +11944,9 @@ text-align:center !important;
     height: 60px;
     background-color: rgba(15, 76, 129, 0.35);
   }
+}
+
+.cabecera{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 300;
 }
