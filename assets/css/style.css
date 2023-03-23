@@ -202,13 +202,15 @@ h2 {
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight:  500;
   margin-bottom: 50px;
+  font-family: 'Inter', sans-serif;
 }
 
 h4 {
   font-size: 20px;
+  font-family: 'Inter', sans-serif;
 }
 
 h5 {
@@ -5415,10 +5417,10 @@ a {
 }
 
 .services-details-area h3{
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 400;
   margin-bottom: 15px;
-  font-family: 'Monserrat',sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .services-details-area .features {
@@ -5466,7 +5468,7 @@ a {
 
 .quick-contact-widget h2 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
@@ -5547,6 +5549,7 @@ a {
 
 .services-sidebar .single-widget h4.widget-title {
   font-size: 22px;
+  font-weight: 500;
 }
 
 .services-sidebar .single-widget:first-child {
@@ -5619,6 +5622,7 @@ a {
   overflow: hidden;
   color: #232323;
   background: #f1f4f8;
+  font-weight: 500;
 }
 
 .services-list-widget ul li a::before {
@@ -9086,7 +9090,8 @@ a {
 }
 
 .project-details-area h1, .project-details-area h2, .project-details-area h3, .project-details-area h4, .project-details-area h5, .project-details-area h6 {
-  font-weight: 600;
+  font-weight: 500;
+  
 }
 
 .project-details-area .main-content {
@@ -9103,12 +9108,13 @@ a {
 }
 
 .project-info .title {
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 25px;
   position: relative;
   z-index: 1;
   padding-bottom: 15px;
   margin-top: -5px;
+  font-family: 'Inter', sans-serif;
 }
 
 .project-info .title::after {
@@ -9211,13 +9217,14 @@ ul.check-list li::after {
   text-align: center;
   border-radius: 50%;
   font-size: 15px;
-  background: -webkit-gradient(linear, left top, right top, from(#02218f), color-stop(#0e72e3), to(#02218f));
-  background: linear-gradient(to right, #02218f, #0e72e3, #02218f);
+  background:#0F4C81;
   background-size: 220% 150%;
 }
 
 ul.check-list li h4 {
   margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
 }
 
 ul.check-list li p {
@@ -11776,8 +11783,8 @@ text-align:center !important;
 
 .heading-black{
   color: #000000;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-weight: 500;
+  font-family: 'M PLUS Rounded 1c', sans-serif !important;
+  font-weight: 400;
   margin-top: -5px;
   letter-spacing: 2%;
 }
