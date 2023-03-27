@@ -11690,7 +11690,7 @@ footer .footer-bottom .text-right li:first-child {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background: url(../img/preloader.gif) center no-repeat #fff;
+  background: url(../img/preloader-sst.gif) center no-repeat #fff;
   text-align: center;
 }
 
