@@ -10,7 +10,6 @@ function isEmail($email) {
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
-$compania     = $_POST['compania'];
 $email    = $_POST['email'];
 $phone     = $_POST['phone'];
 $comments = $_POST['comments'];
@@ -38,18 +37,19 @@ if(get_magic_quotes_gpc()) {
 }
 
 
+
 $address = "contacto@sst.com.pe";
 
 
-$e_subject = 'SST SAC';
-
+$e_subject = 'SST Software - contacto';
 
 
 $e_body = "Ha sido contactado por $name, su mensaje es el siguiente" . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
+$e_phone = "Celular: $phone" . PHP_EOL . PHP_EOL;
 $e_reply = "Puede ponerse en contacto con $name por su correo electrónico, $email";
 
-$msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
+$msg = wordwrap( $e_body . $e_content . $e_phone . $e_reply, 70 );
 
 $headers = "De: $email" . PHP_EOL;
 $headers .= "Responder a: $email" . PHP_EOL;
