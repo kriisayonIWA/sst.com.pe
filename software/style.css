@@ -5376,7 +5376,8 @@ footer .widget-title {
 } */
 
 .footer-space{
-  margin-right: -115px !important;
+  /* margin-right: -115px !important; */
+  margin-right: -10px !important;
 }
 
 footer .contact ul li {
@@ -5595,4 +5596,9 @@ footer.bg-dark .contact ul li .socials{
 
 .margin-35{
   margin-top: 35px;
+}
+
+.top-bar-area  .menu-right{
+ display: flex;
+  justify-content: end !important;
 }
