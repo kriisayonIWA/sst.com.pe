@@ -1192,7 +1192,8 @@ nav.navbar.validnavs {
 }
 
 nav.navbar.validnavs.small-pad {
-	padding: 5px 0;
+	/* padding: 5px 0; */
+	padding: 0;
 }
 
 nav.navbar.validnavs.attr-border-full,
