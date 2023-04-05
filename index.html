@@ -40,9 +40,9 @@
 
     <!-- Header 
     ============================================= -->
-    <header  class="header-transparent">
+    <header>
         <!-- Start Navigation -->
-        <nav class="navbar mobile-sidenav small-pad brand-style-bg nav-border attr-border navbar-sticky navbar-default validnavs">
+        <nav class="navbar navbar-transparent mobile-sidenav small-pad brand-style-bg nav-border attr-border navbar-sticky navbar-default validnavs ">
 
             <!-- Start Top Search -->
             <div class="top-search">
@@ -213,6 +213,19 @@
         <!-- End Navigation -->
 
     </header>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 50) { // Change 50 to the desired scroll position
+        $('.navbar').addClass('navbar-colored');
+      } else {
+        $('.navbar').removeClass('navbar-colored');
+      }
+    });
+  });
+</script>
     <!-- End Header -->
 
     <div class="banner-creado shadow">
@@ -236,7 +249,7 @@
 
     <!-- Start Why Choose Us 
     ============================================= -->
-    <div class="choose-us-area  mt-50">
+    <div class="choose-us-area">
         <div class="container">
             <div class="row">
                 <div class="choose-us-style-one col-xl-7 col-lg-12">

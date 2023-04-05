@@ -11847,8 +11847,9 @@ text-align:center !important;
 .banner-creado {
   position: relative;
   width: 100%;
-  height: 80%; /* ajusta la altura según tus necesidades */
+  height: 95%; /* ajusta la altura según tus necesidades */
   overflow: hidden;
+  bottom: 100px;
 }
 
 .banner-image-creado  {
@@ -11879,7 +11880,7 @@ text-align:center !important;
 
 .banner-text-creado  {
   position: absolute;
-  top: 50%;
+  top: 56%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -11892,7 +11893,7 @@ text-align:center !important;
 .socials{
   text-align: center;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 38px;
   color: #0F4C81;
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
@@ -11997,3 +11998,41 @@ text-align:center !important;
   opacity: 0.5;
 }
 
+.navbar-transparent {
+  background-color: transparent !important;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.navbar-colored {
+  background-color: #1e2222 !important;
+  transition: background-color 0.5s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  
+
+  .navbar-transparent {
+    background-color: #1e2222 !important; /* fondo transparente en un inicio en caso de que se haya definido */
+  }
+}
+
+@media (max-width: 767px) {
+  
+
+  .banner-creado {
+    height: 75%;
+    
+  }
+
+  .heading-black{
+    margin-top: -54px;
+  }
+
+  .banner-text-creado {
+    top: 60%;
+  }
+}
+
+.defaul-padding-top{
+  padding-top: 0;
+}

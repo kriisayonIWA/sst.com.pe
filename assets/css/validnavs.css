@@ -1194,6 +1194,7 @@ nav.navbar.validnavs {
 nav.navbar.validnavs.small-pad {
 	/* padding: 5px 0; */
 	padding: 0;
+	/* background-color: #1e2222 !important; */
 }
 
 nav.navbar.validnavs.attr-border-full,
@@ -1208,6 +1209,8 @@ nav.navbar.validnavs.brand-center {
 		padding-right: 30px;
 	}
 }
+
+
 
 @media (min-width: 1024px) {
 	.navbar-transparent.inc-top-bar {
@@ -1882,6 +1885,7 @@ nav.navbar.validnavs.brand-center {
 	}
 	nav.navbar.validnavs.mobile-sidenav .navbar-collapse.collapse.collapse-mobile {
 		display: initial !important;
+		
 	}
 	nav.navbar.validnavs .navbar-nav>li {
 		float: none;
