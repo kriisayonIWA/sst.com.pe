@@ -8982,7 +8982,7 @@ a {
   position: relative;
   display: inline-block;
   padding: 10px auto;
-  width: 280px;
+  width: 255px;
   height: 80px;
   background-color: rgba(15, 76, 129, 0.35);
   color: white;
@@ -12036,3 +12036,11 @@ text-align:center !important;
 .defaul-padding-top{
   padding-top: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .dropdown-mobile {
+      margin-left: auto !important;
+      margin-right: 15px !important;
+  }
+}
+
