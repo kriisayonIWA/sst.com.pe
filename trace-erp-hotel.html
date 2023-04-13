@@ -43,80 +43,67 @@
     ============================================= -->
     <header>
         <!-- Start Navigation -->
-        <nav class="navbar navbar-transparent mobile-sidenav small-pad brand-style-bg nav-border attr-border navbar-sticky navbar-default validnavs">
-
-            <!-- Start Top Search -->
-            <div class="top-search">
-                <div class="container-xl">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                        <input type="text" class="form-control" placeholder="Buscar">
-                        <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-                    </div>
-                </div>
+        <nav class="navbar navbar-transparent mobile-sidenav small-pad brand-style-bg nav-border attr-border navbar-sticky navbar-default validnavs ">
+          <!-- Start Top Search -->
+          <div class="top-search">
+            <div class="container-xl">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Buscar">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+              </div>
             </div>
-            <!-- End Top Search -->
-
-            <div class="container-fill pr">            
-                
-
-                <div class="row align-center">
-                    <!-- Start Header Navigation -->
-                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-1 col-1">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <a class="navbar-brand" href="index.html">
-                                <img src="assets/img/SST LOGO-DARK.png" class="logo logo-display" alt="Logo SST">
-                                <img src="assets/img/SST LOGO-DARK.png" class="logo logo-scrolled" alt="Logo SST">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- End Header Navigation -->
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="col-xl-7 col-lg-8 col-md-4 col-sm-4 col-4">
-                        <div class="collapse navbar-collapse" id="navbar-menu">
-
-                            <img src="assets/img/SST LOGO-DARK.png" alt="Logo">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                                <i class="fa fa-times"></i>
-                            </button>
-                            
-                            <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                                
-                                <li><a href="que-hacemos.html">Que hacemos?</a></li>
-
-                                <li><a href="quienes-somos.html">Quienes somos?</a></li>
-
-                                <li><a href="tecnologia-actual.html">Tecnología Actual</a></li>
-
-                                <li><a href="contacto.html">Contacto</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /.navbar-collapse -->
-
-                    <div class="col-xl-3 col-lg-2 col-md-6 col-sm-7 col-7">
-                        <div class="attr-right">
-                            <!-- Start Atribute Navigation -->
-                            <div class="attr-nav">
-                                <ul>
-                                    <li class="search"><a href="#"><i class="far fa-search"></i></a></li>
-                                    
-                                    <li class="dropdown">
-                                        
-                                        <a class="idioma" href="#"><img src="./assets/img/peru.png" alt=""> <span class="mt-5 idiom-change">ES</span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Español</a></li>
-                                            <li><a href="#">English</a></li>
-                                        </ul>
-                                    </li>
-
-                                
-                                    
-                                </ul>
+          </div>
+          <!-- End Top Search -->
+      
+          <div class="container-fill pr">
+            <div class="row align-center">
+              <!-- Start Header Navigation -->
+              <div class="col-xl-2 col-lg-2 col-md-2 col-sm-1 col-1">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <i class="fa fa-bars"></i>
+                  </button>
+                  <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/SST LOGO-DARK.png" class="logo logo-display" alt="Logo SST">
+                    <img src="assets/img/SST LOGO-DARK.png" class="logo logo-scrolled" alt="Logo SST">
+                  </a>
+                </div>
+              </div>
+              <!-- End Header Navigation -->
+      
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="col-xl-7 col-lg-8 col-md-4 col-sm-4 col-4">
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                  <img src="assets/img/SST LOGO-DARK.png" alt="Logo">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <i class="fa fa-times"></i>
+                  </button>
+                  <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li><a href="que-hacemos.html" data-i18n="services">Que hacemos?</a></li>
+                    <li><a href="quienes-somos.html" data-i18n="about">Quienes somos?</a></li>
+                    <li><a href="tecnologia-actual.html" data-i18n="blog">Tecnología Actual</a></li>
+                    <li><a href="contacto.html" data-i18n="contact">Contacto</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /.navbar-collapse -->
+      
+              <div class="col-xl-3 col-lg-2 col-md-6 col-sm-7 col-7">
+                <div class="attr-right">
+                  <!-- Start Atribute Navigation -->
+                  <div class="attr-nav">
+                    <ul>
+                      <li class="search"><a href="#"><i class="far fa-search"></i></a></li>
+                      <li class="dropdown">
+                        <a class="idioma" href="#">
+                          <img id="bandera" src="./assets/img/peru.png" alt=""> 
+                          <span id="idioma" class="mt-5 idiom-change"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" data-lang="es" data-i18n="es"><img id="flag" src="./assets/img/peru.png" alt="Peru Flag"> Español</a></li>
+                            <li><a href="#" data-lang="en" data-i18n="en"><img id="flag" src="./assets/img/usa.png" alt="USA Flag"> English</a></li>                                    
+                        </ul>
                             </div>
                             <!-- End Atribute Navigation -->
 
@@ -141,6 +128,33 @@
     <!-- End Header -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        
+        const flagImg = document.getElementById("bandera");
+        const langLinks = document.querySelectorAll(".dropdown-menu li a");
+        const langText = document.querySelector(".idiom-change");
+    
+       
+        langText.innerText = "ES";
+    
+        
+        langLinks.forEach(link => {
+            link.addEventListener("click", (event) => {
+                event.preventDefault();
+                const lang = event.target.dataset.lang;
+                if (lang === "es") {
+                    flagImg.src = "./assets/img/peru.png";
+                } else if (lang === "en") {
+                    flagImg.src = "./assets/img/usa.png";
+                }
+    
+                
+                langText.innerText = event.target.innerText;
+                });
+            });
+        </script>
+
 <script>
   $(document).ready(function() {
     $(window).scroll(function() {
@@ -156,10 +170,10 @@
     <div class="banner-creado">
         <div class="banner-image-creado"  style="background: url(assets/img/que-hacemos/banner-trace-erp-hotel.png);"></div>
         <div class="banner-text-creado container">
-            <h4 class="sub-heading sub-heading-shadow">que hacemos / TRACE erp hoteles</h4>
+            <h4 class="sub-heading sub-heading-shadow" data-i18n="erphoteltitle">que hacemos / TRACE erp hoteles</h4>
             <div class="row">
                 <div class="col-xl-8 banner--main">
-                    <h2 class="banner-title">Transforma tu negocio con tecnología avanzada</h2>
+                    <h2 class="banner-title" data-i18n="erphotelspan">Transforma tu negocio con tecnología avanzada</h2>
                     <!-- <p class="descripcion">Somos un empresa responsable, generamos cambios positivos en beneficio a la sociedad</p> -->
                 </div>
             </div>
@@ -178,43 +192,43 @@
                         <!-- <div class="thumb">
                             <img src="assets/img/1500x700.png" alt="Thumb">
                         </div> -->
-                        <h2 class="heading-black cabecera">Convierta su hotel en un oasis de eficiencia, productividad y rentabilidad</h2>
-                        <P class="body-descripcion">
+                        <h2 class="heading-black cabecera" data-i18n="erphotelh2">Convierta su hotel en un oasis de eficiencia, productividad y rentabilidad</h2>
+                        <P class="body-descripcion" data-i18n="erphp1">
                             La administración eficiente de un hotel puede ser un desafío, desde la gestión de reservas y habitaciones hasta la contabilidad y la facturación. Es por eso que TRACE ERP Hoteles es la solución integral que necesitas para mantener tu negocio funcionando sin problemas.
                         </P>
-                        <p class="body-descripcion">
+                        <p class="body-descripcion" data-i18n="erphp2">
                             Este software de gestión empresarial está diseñado específicamente para satisfacer las necesidades de la industria hotelera. Con TRACE ERP Hoteles, puedes automatizar y mejorar tus procesos comerciales, lo que te permite aumentar la eficiencia, reducir costos y mejorar la satisfacción del cliente.
                         </p>
-                        <p class="body-descripcion">
+                        <p class="body-descripcion" data-i18n="erphp3">
                             Es por ello que TRACE ERP Hoteles ofrece:
                         </p>
                         <div class="features">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="content">
-                                        <h3>Servicios incluidos</h3>
+                                        <h3 data-i18n="serviciosincluidos">Servicios incluidos</h3>
                                         <ul>
-                                            <li>Gestión de reservas y habitaciones</li>
-                                            <li>Gestión de inventario de habitaciones y suministros</li>
-                                            <li>Contabilidad y facturación automatizada</li>
-                                            <li>Gestión de personal y nómina</li>
+                                            <li data-i18n="gestionreservash">Gestión de reservas y habitaciones</li>
+                                            <li data-i18n="gestioninvhab">Gestión de inventario de habitaciones y suministros</li>
+                                            <li data-i18n="contafach">Contabilidad y facturación automatizada</li>
+                                            <li data-i18n="gestionpersonalh">Gestión de personal y nómina</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="content">
-                                        <h3>Beneficios</h3>
+                                        <h3 data-i18n="beneficios">Beneficios</h3>
                                         <ul>
-                                            <li>Mayor eficiencia en la gestión de tu hotel</li>
-                                            <li>Mayor visibilidad de tus operaciones para una mejor toma de decisiones</li>
-                                            <li>Reducción de costos y mejora de la rentabilidad</li>
-                                            <li>Mejora en la satisfacción del cliente al brindar un servicio más eficiente y personalizado</li>
+                                            <li data-i18n="mayoreficienciah">Mayor eficiencia en la gestión de tu hotel</li>
+                                            <li data-i18n="mayorvisibilidadh">Mayor visibilidad de tus operaciones para una mejor toma de decisiones</li>
+                                            <li data-i18n="reduccioncostosh">Reducción de costos y mejora de la rentabilidad</li>
+                                            <li data-i18n="satisfaccionh">Mejora en la satisfacción del cliente al brindar un servicio más eficiente y personalizado</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <p class="body-descripcion">
+                        <p class="body-descripcion" data-i18n="erphp4">
                             En resumen, TRACE ERP Hoteles es una solución integral y eficiente para la gestión de hoteles. Con sus funciones y características específicas para la industria hotelera, este software ayuda a las empresas a mejorar su eficiencia, reducir costos y mejorar la satisfacción del cliente. Si buscas mejorar la gestión de tu hotel, TRACE ERP Hoteles es la respuesta que estás buscando. ¡No esperes más para transformar tu negocio y llevarlo al siguiente nivel con TRACE ERP Hoteles!
                         </p>
                         <!-- <div class="services-more">
@@ -248,11 +262,10 @@
                             <h4 class="widget-title">Productos</h4>
                             <div class="content">
                                 <ul>
-                                    <li  class="current-item"><a href="trace-erp-hotel.html">Trace ERP Hoteles</a></li>
-                                    <li><a href="trace-erp-comercial.html">Trace ERP Comercial</a></li>
-                                    <li><a href="trace-erp-industrial.html">Trace ERP Industrial</a></li>
-                                    
-                                    <li><a href="trace-erp-restaurante.html">Trace ERP Restaurantes</a></li>
+                                    <li class="current-item"><a href="trace-erp-comercial.html" data-i18n="erpcomercial">Trace ERP Comercial</a></li>
+                                    <li><a href="trace-erp-industrial.html" data-i18n="erpindustrial">Trace ERP Industrial</a></li>
+                                    <li><a href="trace-erp-hotel.html" data-i18n="erphotel">Trace ERP Hoteles</a></li>
+                                    <li><a href="trace-erp-restaurante.html" data-i18n="erprestaurant">Trace ERP Restaurantes</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -262,7 +275,7 @@
                                 <i class="fas fa-phone-alt"></i>
                                 <h2>+(51)989 092 000</h2>
                                 <h4><a href="mailto:info@crysta.com">contacto@sst.com.pe</a></h4>
-                                <a class="btn mt-30 btn-sm btn-theme" href="contacto.html">Contáctanos</a>
+                                <a class="btn mt-30 btn-sm btn-theme" href="contacto.html" data-i18n="contactanos">Contáctanos</a>
                             </div>
                         </div>
                         <!-- Single Widget -->
@@ -291,9 +304,10 @@
                     <div class="col-lg-4 col-md-6 item">
                         <div class="f-item about">
                             <img class="logo" src="assets/img/SST LOGO-DARK.png" alt="Logo">
-                            <p>
+                            <p data-i18n="fdescription">
                                 Somos eficientes y capaces de enfrentar retos tecnológicos, brindando un servicio integral de calidad
                             </p>
+                           
                             <ul class="social">
                                 <li>
                                     <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -309,38 +323,50 @@
                     </div>
                     <div class="col-lg-2 col-md-6 item">
                         <div class="f-item link">
-                            <h4 class="widget-title">Soluciones</h4>
+                            <h4 class="widget-title" data-i18n="flinks">Soluciones</h4>
+                           
                             <ul>
                                 <li>
-                                    <a href="index.html"><i class="fas fa-angle-right"></i> Infraestructura</a>
+                                  <a href="index.html">
+                                    <span data-i18n="flink1"><i class="fas fa-angle-right"></i> Infraestructura</span>
+                                  </a>
                                 </li>
                                 <li>
-                                    <a href="./software/index.html"><i class="fas fa-angle-right"></i> Software</a>
+                                  <a href="./software/index.html">
+                                    <span data-i18n="flink2"><i class="fas fa-angle-right"></i> Software</span>
+                                  </a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Consultoría</a>
+                                  <a href="#">
+                                    <span data-i18n="flink3"><i class="fas fa-angle-right"></i> Consultoría</span>
+                                  </a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Marketing Digital</a>
+                                  <a href="#">
+                                    <span data-i18n="flink4"><i class="fas fa-angle-right"></i> Consultoría</span>
+                                  </a>
                                 </li>
-                            </ul>
+                              </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 item">
                         <div class="f-item contact-widget">
-                            <h4 class="widget-title">Contacto</h4>
+                            <h4 class="widget-title" data-i18n="fcontact">Contacto</h4>
+                            
                             <div class="address">
                                 <ul>
                                     <li>
                                         Calle Los Zorzales 130-Of.1002
 San Isidro-Lima
                                     </li>
+                                    
                                     <li>
                                         <div class="icon">
                                             <i class="far fa-envelope"></i>
                                         </div>
                                         <div class="content">
-                                            <strong>Correos:</strong>
+                                            <strong data-i18n="fmail">Correos:</strong>
+                                            
                                             <a href="mailto:contacto@sst.com.pe" target="_blank">contacto@sst.com.pe
                                             </a>
                                             <a href="mailto:ventas@sst.com.pe" target="_blank">ventas@sst.com.pe
@@ -352,7 +378,8 @@ San Isidro-Lima
                                             <i class="fal fa-user-headset"></i>
                                         </div>
                                         <div class="content">
-                                            <strong>Celular:</strong>
+                                            <strong data-i18n="fphone">Celular:</strong>
+                                           
                                             <a href="tel:51989092000">+51 989 092 000</a>
                                         </div>
                                     </li>
@@ -362,13 +389,16 @@ San Isidro-Lima
                     </div>
                     <div class="col-lg-3 col-md-6 item">
                         <div class="f-item newsletter">
-                            <h4 class="widget-title">Mantente informado</h4>
-                            <p>
+                            <h4 class="widget-title" data-i18n="fsub">Mantente informado</h4>
+                           
+                            <p data-i18n="fsubdescription">
                                 Regístrese para recibir nuestro boletín informativo por correo electrónico y recibir las notas más recientes directamente en su bandeja de entrada. 
                             </p>
+                           
                             <form action="#">
                                 <input type="email" placeholder="Tu email" class="form-control" name="email">
-                                <button type="submit">Inscribirse <i class="fa fa-paper-plane"></i></button>  
+                                <button type="submit" data-i18n="fsubbutton">Inscribirse <i class="fa fa-paper-plane"></i></button>  
+                                 
                             </form>
                         </div>
                     </div>
@@ -381,7 +411,8 @@ San Isidro-Lima
                 <div class="footer-bottom-box">
                     <div class="row">
                         <div class="col-12 d-flex justify-content-center">
-                            <p>&copy; Copyright 2023 SST, Todos los derechos reservados<p>
+                            <p >&copy; Copyright 2023 SST, Todos los derechos reservados<p>
+                           
                         </div>
                     </div>
                 </div>
@@ -393,7 +424,8 @@ San Isidro-Lima
     
     <!-- jQuery Frameworks
     ============================================= -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./lib/i18next-22.4.14/i18next.min.js"></script>
+    <script src="./assets/js/i18n.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery.appear.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>

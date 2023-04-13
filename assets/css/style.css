@@ -1,10 +1,4 @@
-/*
-Theme Name: Crysa - It Solution Template
-Author: Validthemes
-Author URI: https://themeforest.net/user/validthemes/portfolio
-Description: Crysa - It Solution Template
-Version: 1.0.0
-*/
+
 @import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=Inter:wght@100;200;300;400;700;800&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&display=swap');
@@ -9607,7 +9601,7 @@ ul.check-list li p {
     Blog Style
  ------------------------------------*/
 .blog-area .single-item {
-  margin-bottom: 30px;
+  margin-bottom: 55px;
 }
 
 .blog-area.full-blog .blog-style-one {
@@ -11804,6 +11798,9 @@ text-align:center !important;
   color: #0F4C81 !important;
 }
 
+.blog-style-one h4.historia-usuario{
+  height: 100px;
+}
 
 .descripcion{
   font-weight: 300;
